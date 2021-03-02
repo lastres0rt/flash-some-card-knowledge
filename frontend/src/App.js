@@ -179,13 +179,13 @@ class App extends Component {
             </div>
           </div>
         </div>
-        {this.state.modal ? (
+        {/* {this.state.modal ? (
           <Modal
             activeItem={this.state.activeItem}
             toggle={this.toggle}
             onSave={this.handleSubmit}
           />
-        ) : null}
+        ) : null} */}
       </main>
     );
   }
